@@ -15,26 +15,25 @@ GestorMedia es una aplicación para la gestión integral de contenido audiovisua
 /GestorMedia
 │
 ├── src/
-│ ├── aplicacion/
-│ │ └── Main.java
-│ ├── controlador/
-│ │ └── ContenidoControlador.java
-│ ├── modelo/
-│ │ ├── Contenido.java
-│ │ ├── Pelicula.java
-│ │ ├── Podcast.java
-│ │ ├── Videojuego.java
-│ │ ├── CreadorContenido.java
-│ │ └── RepositorioContenido.java
-│ ├── util/
-│ │ └── GestorDeArchivosCSV.java
-│ └── vista/
-│ └── ConsolaVista.java
+│   ├── aplicacion/
+│   │   └── Main.java
+│   ├── controlador/
+│   │   └── ContenidoControlador.java
+│   ├── modelo/
+│   │   ├── Contenido.java
+│   │   ├── Pelicula.java
+│   │   ├── Podcast.java
+│   │   ├── Videojuego.java
+│   │   ├── CreadorContenido.java
+│   │   └── RepositorioContenido.java
+│   ├── util/
+│   │   └── GestorDeArchivosCSV.java
+│   └── vista/
+│       └── ConsolaVista.java
 │
 ├── test/
-│ └── modelo/
-│ └── RepositorioContenidoTest.java
-│
+│   └── modelo/
+│       └── RepositorioContenidoTest.java
 │
 ├── README.md
 └── .gitignore
